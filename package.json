@@ -1,0 +1,17 @@
+{
+  "name": "spicy-mono",
+  "version": "0.1.0",
+  "description": "spicy mono-repo for storybook and create-react-app",
+  "main": "index.js",
+  "repository": "https://github.com/SammyRobensParadise/spicy-mono.git",
+  "author": "Sammy Robens-Paradise <srobensparadise@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "library",
+    "app"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
