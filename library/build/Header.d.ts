@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import './header.css';
+import PropTypes from "prop-types";
+import "./header.css";
 export declare const Header: {
     ({ user, onLogin, onLogout, onCreateAccount }: {
         user: any;
