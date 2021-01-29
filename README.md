@@ -60,3 +60,5 @@ Yarn workspaces and Lerna will automatically reconcile common `node_modules` and
   ...
 }
 ```
+
+![spicy](https://i.ibb.co/NmY9fF2/spicymemeee.jpg)
