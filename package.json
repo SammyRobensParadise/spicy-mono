@@ -7,10 +7,17 @@
   "author": "Sammy Robens-Paradise <srobensparadise@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "library",
-    "app"
-  ],
+  "workspaces": {
+    "packages": [
+      "library",
+      "app"
+    ],
+    "nohoist": [
+      "**/babel-loader/**",
+      "**/babel-loader",
+      "babel-loader"
+    ]
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

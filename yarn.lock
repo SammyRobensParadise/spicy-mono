@@ -2570,9 +2570,9 @@
     react-lifecycles-compat "^3.0.4"
 
 "@rollup/plugin-commonjs@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-17.0.0.tgz#2ae2228354cf0fbba6cf9f06f30b2c66a974324c"
-  integrity sha512-/omBIJG1nHQc+bgkYDuLpb/V08QyutP9amOrJRUSlYJZP+b/68gM//D8sxJe3Yry2QnYIr3QjR3x4AlxJEN3GA==
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-17.1.0.tgz#757ec88737dffa8aa913eb392fade2e45aef2a2d"
+  integrity sha512-PoMdXCw0ZyvjpCMT5aV4nkL0QywxP29sODQsSGeDpr/oI49Qq9tRtAsb/LbYbDzFlOydVEqHmmZWFtXJEAX9ew==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     commondir "^1.0.1"
@@ -2583,9 +2583,9 @@
     resolve "^1.17.0"
 
 "@rollup/plugin-node-resolve@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-11.1.0.tgz#fa0f888297b3aebcd6534e8aba4e6fe01997649a"
-  integrity sha512-ouBBppRdWJKCllDXGzJ7ZIkYbaq+5TmyP0smt1vdJCFfoZhLi31vhpmjLhyo8lreHf4RoeSNllaWrvSqHpHRog==
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-11.1.1.tgz#47bc34252914794a1b06fb50371d7520a03f91f3"
+  integrity sha512-zlBXR4eRS+2m79TsUZWhsd0slrHUYdRx4JF+aVQm+MI0wsKdlpC2vlDVjmlGvtZY1vsefOT9w3JxvmWSBei+Lg==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     "@types/resolve" "1.17.1"
@@ -3720,9 +3720,9 @@
   integrity sha512-37RSHht+gzzgYeobbG+KWryeAW8J33Nhr69cjTqSYymXVZEN9NbRYWoYlRtDhHKPVT1FyNKwaTPC1NynKZpzRA==
 
 "@types/yargs@^15.0.0":
-  version "15.0.12"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.12.tgz#6234ce3e3e3fa32c5db301a170f96a599c960d74"
-  integrity sha512-f+fD/fQAo3BCbCDlrUpznF1A5Zp9rB0noS5vnoormHSIPFKL0Z2DcUJ3Gxp5ytH4uLRNxy7AwYUC9exZzqGMAw==
+  version "15.0.13"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.13.tgz#34f7fec8b389d7f3c1fd08026a5763e072d3c6dc"
+  integrity sha512-kQ5JNTrbDv3Rp5X2n/iUu37IJBDU2gsZ5R/g1/KHOOEc5IKfUFjXT6DENPGduh08I/pamwtEq4oul7gUqKTQDQ==
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -5501,9 +5501,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001035, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001173:
-  version "1.0.30001180"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001180.tgz#67abcd6d1edf48fa5e7d1e84091d1d65ab76e33b"
-  integrity sha512-n8JVqXuZMVSPKiPiypjFtDTXc4jWIdjxull0f92WLo7e1MSi3uJ3NvveakSh/aCl1QKFAvIz3vIj0v+0K+FrXw==
+  version "1.0.30001181"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz#4f0e5184e1ea7c3bf2727e735cbe7ca9a451d673"
+  integrity sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -7143,9 +7143,9 @@ emoji-regex@^8.0.0:
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
 emoji-regex@^9.0.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.0.tgz#a26da8e832b16a9753309f25e35e3c0efb9a066a"
-  integrity sha512-DNc3KFPK18bPdElMJnf/Pkv5TXhxFU3YFDEuGLDRtPmV4rkmCjBkCSEp22u6rBHdSN9Vlp/GK7k98prmE1Jgug==
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.1.tgz#c9b25604256bb3428964bead3ab63069d736f7ee"
+  integrity sha512-117l1H6U4X3Krn+MrzYrL57d5H7siRHWraBs7s+LjRuFK7Fe7hJqnJ0skWlinqsycVLU5YAo6L8CsEYQ0V5prg==
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -10754,7 +10754,7 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-library@/Users/sammyrobens-paradise/projects/spicy-mono/library:
+"library@file:library":
   version "0.1.0"
   dependencies:
     rollup "^2.38.1"
@@ -10886,7 +10886,7 @@ lodash.ismatch@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
   integrity sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=
 
-lodash.memoize@4.x, lodash.memoize@^4.1.2:
+lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
@@ -10921,7 +10921,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5, lodash@^4.2.1:
+lodash@4.x, "lodash@>=3.5 <5", lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5, lodash@^4.2.1:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -16131,9 +16131,9 @@ ts-essentials@^2.0.3:
   integrity sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w==
 
 ts-jest@^26.4.4:
-  version "26.4.4"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.4.4.tgz#61f13fb21ab400853c532270e52cc0ed7e502c49"
-  integrity sha512-3lFWKbLxJm34QxyVNNCgXX1u4o/RV0myvA2y2Bxm46iGIjKlaY0own9gIckbjZJPn+WaJEnfPPJ20HHGpoq4yg==
+  version "26.5.0"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.5.0.tgz#3e3417d91bc40178a6716d7dacc5b0505835aa21"
+  integrity sha512-Ya4IQgvIFNa2Mgq52KaO8yBw2W8tWp61Ecl66VjF0f5JaV8u50nGoptHVILOPGoI7SDnShmEqnYQEmyHdQ+56g==
   dependencies:
     "@types/jest" "26.x"
     bs-logger "0.x"
@@ -16141,7 +16141,7 @@ ts-jest@^26.4.4:
     fast-json-stable-stringify "2.x"
     jest-util "^26.1.0"
     json5 "2.x"
-    lodash.memoize "4.x"
+    lodash "4.x"
     make-error "1.x"
     mkdirp "1.x"
     semver "7.x"
