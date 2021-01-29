@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { Button } from 'library'
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button backgroundColor="#4A90E2" primary size="small" label="Yay a Button from Storybook">test</Button>
       </header>
     </div>
   );
