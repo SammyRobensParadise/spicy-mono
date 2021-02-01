@@ -332,3 +332,9 @@ export default App;
 ### Time to get creating! 🛠 ⚡️ 🎉
 
 ![spicy](https://i.ibb.co/NmY9fF2/spicymemeee.jpg)
+
+### References
+Inspired by (and thanks to) these articles 📖:
+- [Publishing and Installing Private GitHub Packages using Yarn and Lerna](https://viewsource.io/publishing-and-installing-private-github-packages-using-yarn-and-lerna/)
+- [How to create a React component library with TypeScript, rollup.js and Storybook](https://medium.com/@dennisschneider/how-to-create-a-react-component-library-with-typescript-rollup-js-and-storybook-cc3fe95c9c44)
+- [Setup a Create React App Monorepo](https://f1lt3r.io/create-react-app-monorepo-with-lerna-storybook-jest)
