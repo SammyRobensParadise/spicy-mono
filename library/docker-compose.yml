@@ -5,7 +5,7 @@ services:
   library:
       container_name: library
       build:
-          context: .
+          context: ./
           dockerfile: Dockerfile
       ports: 
         - 6006:6006
@@ -16,5 +16,7 @@ services:
           retries: 3
           start_period: 60s
       volumes:
-           - ../yarn.lock:./
+          - type: bind
+            source: ./yarn.lock
+            target: ./
 
