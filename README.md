@@ -1,6 +1,50 @@
 # spicy-mono
-a _hopefully_ tasteful monorepo with react and component libraries
+A tasteful monorepo with react and component libraries 🌶 
+## Running
 
+### The app
+The app is not yet containerized.
+```bash
+cd app && yarn start # runs on localhost:3000
+```
+
+### The Library
+```bash
+cd library
+
+make library # will build a docker image and spin up a docker container at localhost:6006
+
+```
+Run `make help` for a full list of possible commands
+```bash
+make help
+```
+#### Optional:
+Interact with `Docker` directly
+
+Access the library directly
+```bash
+docker exec -it $(docker ps -a -q  --filter ancestor=library) /bin/bash
+```
+Build the library
+```bash
+docker build -t library .
+```
+Start the library container
+```bash
+docker run -p 6006:6006 -d library
+```
+Stop the library container 
+```bash 
+docker container stop $(docker ps -a -q  --filter ancestor=library)
+
+# or
+
+# list the CONTAINER IDs
+docker ps
+# stop the container
+docker container stop <CONTAINER_ID>
+```
 ## Structure
 
 This is a proof-of-concept project to determine the codeability of a monorepo containing both a component library and react app(s) created using create-react-app, It uses [lerna](https://github.com/lerna/lerna) and [yarn workspaces](https://yarnpkg.com/cli/workspace#gatsby-focus-wrapper) to manage the multi-project node environment. 
