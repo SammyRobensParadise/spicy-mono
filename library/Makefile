@@ -13,16 +13,21 @@ build-library:
 	docker build -t library .
 	@echo "Done! ✨"
 start-library:
-	@echo "Start library... ⚡️ "
+	@echo "Starting library... ⚡️ "
 	docker run -p 6006:6006 -d library
 	@docker ps
 	@echo "Done! ✨"
 	@echo "Storybook Library is running on http://localhost:6006 🌐"
+	open http://localhost:6006
 stop-library:
 	@echo "Stopping Library 🛑"
-	docker ps -a -q  --filter ancestor=library
+	docker container stop $$(docker ps -a -q  --filter ancestor=library)
 	@echo "Done! ✨"
 	@echo "Sucessfully stopped Library"
+library:
+	@echo "Making library..."
+	make build-library && make start-library
+	@echo "Success 🎉"
 
 
 
