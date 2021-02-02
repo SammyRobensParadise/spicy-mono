@@ -12,7 +12,6 @@ COPY .eslintrc ./
 COPY tsconfig.json ./
 COPY jest.config.js ./
 COPY rollup.config.js ./
-COPY yarn.lock ./
 
 RUN yarn install
 
