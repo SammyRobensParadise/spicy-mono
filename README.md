@@ -28,7 +28,7 @@ docker exec -it $(docker ps -a -q  --filter ancestor=library) /bin/bash
 ```
 Build the library
 ```bash
-docker build -t library .
+cp ../yarn.lock ./ && docker build -t library .
 ```
 Start the library container
 ```bash

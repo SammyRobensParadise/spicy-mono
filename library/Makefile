@@ -10,6 +10,7 @@ help:
 
 build-library:
 	@echo "Building Docker Image... 🐳"
+	cp ../yarn.lock ./
 	docker build -t library .
 	@echo "Done! ✨"
 start-library:
