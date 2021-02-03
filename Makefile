@@ -16,7 +16,7 @@ builds:
 up:
 	@echo "Starting library... ⚡️ "
 	docker-compose up --build
-	@docker ps
+	@docker-compose ps
 	@echo "Done! ✨"
 	@echo "Storybook Library is running on http://localhost:6006 🌐"
 	open http://localhost:6006

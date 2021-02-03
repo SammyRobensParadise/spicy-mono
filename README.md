@@ -12,7 +12,7 @@ cd app && yarn start # runs on localhost:3000
 ```bash
 cd library
 
-make library # will build a docker image and spin up a docker container at localhost:6006
+make all # will build a docker image and spin up a docker container at localhost:6006
 
 ```
 Run `make help` for a full list of possible commands
@@ -24,26 +24,20 @@ Interact with `Docker` directly
 
 Access the library directly
 ```bash
-docker exec -it $(docker ps -a -q  --filter ancestor=library) /bin/bash
+docker exec -it library /bin/bash
 ```
 Build the library
 ```bash
-cp ../yarn.lock ./ && docker build -t library .
+docker-compose build --no-cache
 ```
 Start the library container
 ```bash
-docker run -p 6006:6006 -d library
+docker-compose up
 ```
 Stop the library container 
 ```bash 
-docker container stop $(docker ps -a -q  --filter ancestor=library)
+docker-compose down
 
-# or
-
-# list the CONTAINER IDs
-docker ps
-# stop the container
-docker container stop <CONTAINER_ID>
 ```
 ## Structure
 
