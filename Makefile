@@ -11,23 +11,22 @@ help:
 
 builds:
 	@echo "Building Docker Images... 🐳"
-	docker-compose build --no-cache
+	docker-compose build
 	@echo "Done! ✨"
-up:
+up: builds
 	@echo "Starting library... ⚡️ "
-	docker-compose up --build
+	docker-compose up --build -d
 	@docker-compose ps
 	@echo "Done! ✨"
 	@echo "Storybook Library is running on http://localhost:6006 🌐"
 	open http://localhost:6006
+	@docker-compose logs --follow
 stop:
 	@echo "Stopping Library 🛑"
 	docker-compose down
 	@echo "Done! ✨"
 	@echo "Sucessfully stopped Library"
-all:
-	@echo "Making library..."
-	make builds && make up
+all: builds up
 	@echo "Success 🎉"
 
 
